@@ -1,0 +1,236 @@
+/* about alappuzha */
+#alappuzha {
+  margin-left: 570px;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+#alappuzha_paragraph {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 70px;
+  margin-top: 10px;
+  margin-right: 70px;
+  line-height: 2;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  text-indent: 120px;
+  text-shadow: 0.2px 0.2px 0.2px black;
+}
+#alimg1 {
+  margin-top: 60px;
+  margin-left: 90px;
+  border-radius: 10px;
+}
+#alimg2 {
+  margin-top: 60px;
+  margin-left: 60px;
+  border-radius: 10px;
+}
+#alimg3 {
+  margin-top: 60px;
+  margin-left: 60px;
+  border-radius: 10px;
+}
+#alimg4 {
+  margin-top: 60px;
+  margin-left: 60px;
+  border-radius: 10px;
+}
+#alimg5 {
+  margin-top: 60px;
+  margin-left: 60px;
+  border-radius: 10px;
+}
+/*hotel 1 card section*/
+.card-img-top1 {
+  margin-top: 40px;
+  margin-left: 40px;
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+}
+.card-title1 {
+  font-family: bold;
+}
+.card-text1 {
+  margin-left: 70px;
+  margin-top: -12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 1.5;
+  text-shadow: 0.2px 0.2px 0.2px black;
+}
+.card-head1 {
+  margin-left: 60px;
+  color: rgb(157, 43, 43);
+  font-size: 20px;
+}
+.card-link1 {
+  margin-left: 120px;
+  margin-top: 70px;
+}
+.card1 {
+  margin-left: 50px;
+}
+/*hotel 2 card section*/
+.card-img-top2 {
+  margin-top: 40px;
+  margin-left: 40px;
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+}
+.card-title2 {
+  font-family: bold;
+}
+.card-text2 {
+  margin-left: 70px;
+  margin-top: -12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 1.5;
+  text-shadow: 0.2px 0.2px 0.2px black;
+}
+.card-head2 {
+  margin-left: 60px;
+  color: rgb(157, 43, 43);
+  font-size: 20px;
+}
+.card-link2 {
+  margin-left: 120px;
+  margin-top: 70px;
+}
+.card2 {
+  margin-left: 530px;
+  margin-top: -660px;
+}
+/*hotel 3 card section*/
+.card-img-top3 {
+  margin-top: 40px;
+  margin-left: 40px;
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+}
+.card-title3 {
+  font-family: bold;
+}
+.card-text3 {
+  margin-left: 70px;
+  margin-top: -12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 1.5;
+  text-shadow: 0.2px 0.2px 0.2px black;
+}
+.card-head3 {
+  margin-left: 60px;
+  color: rgb(157, 43, 43);
+  font-size: 20px;
+}
+.card-link3 {
+  margin-left: 120px;
+  margin-top: 70px;
+}
+.card3 {
+  margin-left: 1000px;
+  margin-top: -520px;
+}
+/*customer rivew section*/
+.image1 {
+  margin-top: 60px;
+  margin-left: 190px;
+  border-radius: 10px;
+}
+.name1 {
+  margin-top: 20px;
+  margin-left: 230px;
+  font-size: 20px;
+}
+.job1 {
+  margin-top: -20px;
+  margin-left: 240px;
+  font-size: 15px;
+  color: rgb(46, 45, 41);
+}
+.paragraph1 {
+  margin-left: 75px;
+  margin-right: 920px;
+  margin-top: -20px;
+  line-height: 2;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  text-shadow: 0.5px 1px 0.5px black;
+}
+.image2 {
+  margin-top: -698px;
+  margin-left: 900px;
+  margin-bottom: 280px;
+  border-radius: 10px;
+}
+.name2 {
+  margin-top: -250px;
+  margin-left: 950px;
+  font-size: 20px;
+}
+.job2 {
+  margin-top: -20px;
+  margin-left: 950px;
+  font-size: 15px;
+  color: rgb(46, 45, 41);
+  margin-bottom: -20px;
+  margin-bottom: 280px;
+}
+.paragraph2 {
+  margin-left: 800px;
+  margin-right: 110px;
+  margin-top: -260px;
+  line-height: 2;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  text-shadow: 0.5px 1px 0.5px black;
+  margin-bottom: 800px;
+}
+.Review1 {
+  border-radius: 120px;
+  margin-bottom: -15px;
+  background-color: rgb(246, 246, 240);
+}
+/*footer*/
+.footer {
+  position: relative;
+  width: 100%;
+  background: #505a64;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  height: 400px;
+  margin-top: -650px;
+}
+.social-icon {
+  font-size: 24px;
+  margin-left: 700px;
+  margin-top: 150px;
+  color: rgb(10, 10, 10);
+}
+.menu {
+  font-size: 20px;
+  margin-right: 700px;
+  margin-top: -150px;
+  color: rgb(4, 4, 4);
+}
+.social-icon__link1,
+.social-icon__link2,
+.social-icon__link3,
+.social-icon__link4 {
+  color: beige;
+}
+.menu__link1,
+.menu__link2,
+.menu__link3,
+.menu__link4,
+.menu__link5,
+.menu__link6,
+.menu__link7 {
+  color: beige;
+  text-decoration: none;
+}

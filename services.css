@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, sans-serif;
+}
+h2.display-5 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+p.text-secondary {
+  color: #6c757d;
+  font-size: 1rem;
+}
+hr.border-dark-subtle {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+h5 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+p {
+  font-size: 1rem;
+  color: #6c757d;
+}
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+.py-xl-8 {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+.services {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+.mb-xl-9 {
+  margin-bottom: 5rem !important;
+}
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.px-xl-2 {
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+}
+.w-50 {
+  width: 50% !important;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -0.75rem;
+  margin-left: -0.75rem;
+}
+.col-12 {
+  position: relative;
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+}
+.col-sm-6 {
+  position: relative;
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+}
+@media (min-width: 576px) {
+  .col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.333333%;
+  }
+}
+@media (min-width: 1200px) {
+  .col-xl-7 {
+    flex: 0 0 auto;
+    width: 58.333333%;
+  }
+}
+@media (min-width: 1400px) {
+  .col-xxl-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+.gy-5 {
+  --bs-gutter-y: 3rem;
+}
+img {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 1rem;
+}
+/*footer*/
+.footer {
+  position: relative;
+  width: 100%;
+  background: #505a64;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  height: 400px;
+}
+.social-icon {
+  font-size: 24px;
+  margin-left: 700px;
+  margin-top: 150px;
+  color: rgb(10, 10, 10);
+}
+.menu {
+  font-size: 20px;
+  margin-right: 700px;
+  margin-top: -150px;
+  color: rgb(4, 4, 4);
+}
+.social-icon__link1,
+.social-icon__link2,
+.social-icon__link3,
+.social-icon__link4 {
+  color: beige;
+}
+.menu__link1,
+.menu__link2,
+.menu__link3,
+.menu__link4,
+.menu__link5,
+.menu__link6,
+.menu__link7 {
+  color: beige;
+  text-decoration: none;
+}

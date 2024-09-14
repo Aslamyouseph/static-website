@@ -1,0 +1,94 @@
+/*seting heding image*/
+#Wildlife {
+  margin-left: 50px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+/*paragrah1 setting */
+.paragraph1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
+  margin-left: 600px;
+  margin-top: -600px;
+  line-height: 2;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  text-indent: 120px;
+  text-shadow: 0.5px 1px 0.5px black;
+}
+/* photo seting section */
+#Wildlife1,
+#Wildlife2,
+#Wildlife3,
+#Wildlife4 {
+  margin-left: 50px;
+  margin-top: 200px;
+  border-radius: 10px;
+}
+#Wildlife5,
+#Wildlife6,
+#Wildlife7,
+#Wildlife8 {
+  margin-left: 50px;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+/*paragraph2 setting*/
+.paragraph2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
+  margin-left: 30px;
+  margin-top: 40px;
+  margin-right: 30px;
+  line-height: 2;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  text-indent: 120px;
+  text-shadow: 0.5px 1px 0.5px black;
+}
+/*setting the map */
+.map {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+/*footer*/
+.footer {
+  position: relative;
+  width: 100%;
+  background: #505a64;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  height: 400px;
+}
+.social-icon {
+  font-size: 24px;
+  margin-left: 700px;
+  margin-top: 150px;
+  color: rgb(10, 10, 10);
+}
+.menu {
+  font-size: 20px;
+  margin-right: 700px;
+  margin-top: -150px;
+  color: rgb(4, 4, 4);
+}
+.social-icon__link1,
+.social-icon__link2,
+.social-icon__link3,
+.social-icon__link4 {
+  color: beige;
+}
+.menu__link1,
+.menu__link2,
+.menu__link3,
+.menu__link4,
+.menu__link5,
+.menu__link6,
+.menu__link7 {
+  color: beige;
+  text-decoration: none; /* used for removing the text decerations */
+}

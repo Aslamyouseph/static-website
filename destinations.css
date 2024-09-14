@@ -1,0 +1,442 @@
+.main_photo {
+  border-radius: 30px;
+  margin-left: 30px;
+  margin-top: 50px;
+  width: 800px;
+  height: 550px;
+}
+.hedding {
+  font-size: 70px;
+  color: rgb(12, 95, 11);
+  margin-left: 900px;
+  margin-top: -550px;
+}
+.hedding_text {
+  margin-left: 900px;
+  margin-top: -20px;
+  font-size: 18px;
+  margin-right: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.5;
+  text-indent: 100px;
+}
+/*setting the map*/
+.map {
+  background-color: rgb(254, 70, 9);
+  width: 170px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 900px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-weight: bold;
+}
+/*used for removing the underline of the link */
+a {
+  text-decoration: none;
+}
+/*setting the calender section*/
+.calander_img {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.66);
+  margin-left: 500px;
+  margin-top: -50px;
+}
+.calander_text {
+  margin-right: -100px;
+  margin-left: 420px;
+  margin-top: -20px;
+  color: rgb(221, 16, 104);
+}
+.calander {
+  margin-left: 750px;
+  margin-top: -10px;
+}
+.kerala_paragraph {
+  font-size: 19px;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  text-shadow: 0.5px 1px 0.5px black;
+  margin-left: 70px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+.top_paragraph {
+  font-size: 19px;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  text-shadow: 0.5px 1px 0.5px black;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+/*important facts table*/
+.fact_table {
+  margin-top: 50px;
+  margin-left: 50px;
+  padding: 30px;
+}
+td {
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  text-shadow: 0.5px 1px 0.5px black;
+}
+.table {
+  margin-right: 200px;
+  margin-left: 50px;
+}
+.Kerala_Holiday {
+  font-size: 50px;
+  color: rgb(12, 95, 11);
+  margin-left: 30px;
+}
+/*  top destination image setup*/
+#img1,
+#img2,
+#img3,
+#img4,
+#img5 {
+  border-radius: 10px;
+}
+.photo_name1 {
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.photo_name2 {
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.photo_name3 {
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.photo_name4 {
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.photo_name5 {
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.img_possition1 {
+  margin-left: 70px;
+  margin-top: 60px;
+}
+.img_possition2 {
+  margin-left: 350px;
+  margin-top: -265px;
+}
+.img_possition3 {
+  margin-left: 650px;
+  margin-top: -260px;
+}
+.img_possition4 {
+  margin-left: 940px;
+  margin-top: -260px;
+}
+.img_possition5 {
+  margin-left: 1230px;
+  margin-top: -270px;
+}
+/*Wildlife kerala setup*/
+.Wildlife {
+  margin-top: 35px;
+}
+#wildimg1,
+#wildimg2,
+#wildimg3,
+#wildimg4,
+#wildimg5 {
+  border-radius: 10px;
+}
+.wildphoto_name1 {
+  margin-left: -8px;
+  margin-top: 20px;
+}
+.wildphoto_name2 {
+  margin-left: -4px;
+  margin-top: 10px;
+}
+.wildphoto_name3 {
+  margin-left: -4px;
+  margin-top: 20px;
+}
+.wildphoto_name4 {
+  margin-left: -4px;
+  margin-top: 20px;
+}
+.wildphoto_name5 {
+  margin-left: -4px;
+  margin-top: 20px;
+}
+.wildimg_possition1 {
+  margin-left: 60px;
+  margin-top: 60px;
+}
+.wildimg_possition2 {
+  margin-left: 340px;
+  margin-top: -270px;
+}
+.wildimg_possition3 {
+  margin-left: 630px;
+  margin-top: -265px;
+}
+.wildimg_possition4 {
+  margin-left: 930px;
+  margin-top: -260px;
+}
+.wildimg_possition5 {
+  margin-left: 1230px;
+  margin-top: -265px;
+}
+/*historical sites*/
+.historicallife {
+  margin-top: 35px;
+}
+#historicalimg1,
+#historicalimg2,
+#historicalimg3,
+#historicalimg4,
+#historicalimg5 {
+  border-radius: 10px;
+}
+.historicalphoto_name1 {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.historicalphoto_name2 {
+  margin-left: -4px;
+  margin-top: 20px;
+}
+.historicalphoto_name3 {
+  margin-left: 20px;
+  margin-top: 25px;
+}
+.historicalphoto_name4 {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.historicalphoto_name5 {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.historicalimg_possition1 {
+  margin-left: 60px;
+  margin-top: 60px;
+}
+.historicalimg_possition2 {
+  margin-left: 340px;
+  margin-top: -270px;
+}
+.historicalimg_possition3 {
+  margin-left: 630px;
+  margin-top: -270px;
+}
+.historicalimg_possition4 {
+  margin-left: 930px;
+  margin-top: -270px;
+}
+.historicalimg_possition5 {
+  margin-left: 1230px;
+  margin-top: -270px;
+}
+/*trekking areas*/
+.trekkinglife {
+  margin-top: 35px;
+}
+#trekkingimg1,
+#trekkingimg2,
+#trekkingimg3,
+#trekkingimg4,
+#trekkingimg5 {
+  border-radius: 10px;
+}
+.trekkingphoto_name1 {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.trekkingphoto_name2 {
+  margin-left: -4px;
+  margin-top: 20px;
+}
+.trekkingphoto_name3 {
+  margin-left: 20px;
+  margin-top: 25px;
+}
+.trekkingphoto_name4 {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.trekkingphoto_name5 {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.trekkingimg_possition1 {
+  margin-left: 60px;
+  margin-top: 60px;
+}
+.trekkingimg_possition2 {
+  margin-left: 340px;
+  margin-top: -270px;
+}
+.trekkingimg_possition3 {
+  margin-left: 630px;
+  margin-top: -270px;
+}
+.trekkingimg_possition4 {
+  margin-left: 930px;
+  margin-top: -270px;
+}
+.trekkingimg_possition5 {
+  margin-left: 1230px;
+  margin-top: -265px;
+}
+/*beach details*/
+.beachlife {
+  margin-top: 35px;
+}
+#beachimg1,
+#beachimg2,
+#beachimg3,
+#beachimg4,
+#beachimg5 {
+  border-radius: 10px;
+}
+.beachphoto_name1 {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.beachphoto_name2 {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.beachphoto_name3 {
+  margin-left: 30px;
+  margin-top: 25px;
+}
+.beachphoto_name4 {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.beachphoto_name5 {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.beachimg_possition1 {
+  margin-left: 60px;
+  margin-top: 60px;
+}
+.beachimg_possition2 {
+  margin-left: 340px;
+  margin-top: -270px;
+}
+.beachimg_possition3 {
+  margin-left: 630px;
+  margin-top: -270px;
+}
+.beachimg_possition4 {
+  margin-left: 930px;
+  margin-top: -270px;
+}
+.beachimg_possition5 {
+  margin-left: 1230px;
+  margin-top: -265px;
+}
+.record {
+  font-size: 20px;
+  margin-left: 30px;
+  margin-right: 50px;
+}
+/*how to reach*/
+.How_to_reach_air {
+  margin-left: 100px;
+}
+.airoplane {
+  margin-left: 70px;
+  width: 50px;
+}
+.airo_hedding {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(156, 24, 24);
+}
+.airo_text {
+  font-size: 18px;
+}
+.How_to_reach_train {
+  margin-left: 550px;
+  margin-top: -200px;
+}
+.train {
+  margin-left: 70px;
+  width: 50px;
+}
+.train_hedding {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(156, 24, 24);
+}
+.train_text {
+  font-size: 18px;
+}
+.How_to_reach_bus {
+  margin-left: 1000px;
+  margin-top: -200px;
+}
+.bus {
+  margin-left: 70px;
+  width: 50px;
+}
+.bus_hedding {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(156, 24, 24);
+}
+.bus_text {
+  font-size: 18px;
+}
+/*footer*/
+.footer {
+  position: relative;
+  width: 100%;
+  background: #505a64;
+  padding: 30px 0; /* Adjusted padding */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden; /* Hide overflowing waves */
+  height: 400px;
+  margin-top: -650px;
+  margin-top: 100px;
+}
+.social-icon {
+  font-size: 24px;
+  margin-left: 700px;
+  margin-top: 150px;
+  color: rgb(10, 10, 10);
+}
+.menu {
+  font-size: 20px;
+  margin-right: 700px;
+  margin-top: -150px;
+  color: rgb(4, 4, 4);
+}
+.social-icon__link1,
+.social-icon__link2,
+.social-icon__link3,
+.social-icon__link4 {
+  color: beige;
+}
+.menu__link1,
+.menu__link2,
+.menu__link3,
+.menu__link4,
+.menu__link5,
+.menu__link6,
+.menu__link7 {
+  color: beige;
+  text-decoration: none;
+}

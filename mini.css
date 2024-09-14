@@ -1,0 +1,869 @@
+/*Home page*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+/*navigation bar setup*/
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 300px;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #130909;
+  text-transform: uppercase;
+}
+.navbar ul li::after {
+  content: "";
+  height: 4px;
+  width: 0;
+  background: #100202;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.navbar ul li:hover:after {
+  width: 100%;
+}
+.navbar ul {
+  color: rgb(187, 214, 214);
+  font-size: 15px;
+  font-weight: 500px;
+  font-style: oblique;
+}
+/*image slider setup*/
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 600px;
+  background: #f5f5f5;
+  box-shadow: 0 30px 50px #dbdbdb;
+  margin-top: 175px;
+  margin-left: -450px;
+}
+.container .slide .item {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  box-shadow: 0 30px 50px #857b7b;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: inline-block;
+  transition: 0.5s;
+}
+.slide .item:nth-child(1),
+.slide .item:nth-child(2) {
+  top: 0;
+  left: 0;
+  transform: translate(0, 0);
+  border-radius: 0;
+  width: 100%;
+  height: 100%;
+}
+.slide .item:nth-child(3) {
+  left: 50%;
+}
+.slide .item:nth-child(4) {
+  left: calc(50% + 220px);
+}
+.slide .item:nth-child(5) {
+  left: calc(50% + 440px);
+}
+.slide .item:nth-child(n + 6) {
+  left: calc(50% + 660px);
+  opacity: 0;
+}
+.slide .item:nth-child(2) {
+  display: block;
+}
+.button1 {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+}
+.button1 button {
+  width: 40px;
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin: 0 50px;
+  border: 1px solid#000;
+  transition: 0.3s;
+}
+.button1 button:hover {
+  background: #797676;
+  color: #fff;
+}
+/*hedding setup */
+.text1 {
+  margin-left: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+/* paragraph setup*/
+.text2 {
+  margin-left: 875px;
+  margin-right: 20px;
+  margin-top: 100px;
+  line-height: 2;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  text-indent: 120px;
+  text-shadow: 0.5px 1px 0.5px black;
+}
+.top {
+  margin-top: 170px;
+}
+/*  top destination image setup*/
+#img1,
+#img2,
+#img3,
+#img4,
+#img5 {
+  border-radius: 10px;
+}
+.photo_name1 {
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.photo_name2 {
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.photo_name3 {
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.photo_name4 {
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.photo_name5 {
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.img_possition1 {
+  margin-left: 70px;
+  margin-top: 60px;
+}
+.img_possition2 {
+  margin-left: 350px;
+  margin-top: -245px;
+}
+.img_possition3 {
+  margin-left: 650px;
+  margin-top: -245px;
+}
+.img_possition4 {
+  margin-left: 940px;
+  margin-top: -240px;
+}
+.img_possition5 {
+  margin-left: 1230px;
+  margin-top: -245px;
+}
+/*Wildlife kerala setup*/
+.Wildlife {
+  margin-top: 35px;
+}
+#wildimg1,
+#wildimg2,
+#wildimg3,
+#wildimg4,
+#wildimg5 {
+  border-radius: 10px;
+}
+.wildphoto_name1 {
+  margin-left: -8px;
+  margin-top: 20px;
+}
+.wildphoto_name2 {
+  margin-left: -4px;
+  margin-top: 20px;
+}
+.wildphoto_name3 {
+  margin-left: -4px;
+  margin-top: 20px;
+}
+.wildphoto_name4 {
+  margin-left: -4px;
+  margin-top: 20px;
+}
+.wildphoto_name5 {
+  margin-left: -4px;
+  margin-top: 20px;
+}
+.wildimg_possition1 {
+  margin-left: 60px;
+  margin-top: 60px;
+}
+.wildimg_possition2 {
+  margin-left: 340px;
+  margin-top: -245px;
+}
+.wildimg_possition3 {
+  margin-left: 630px;
+  margin-top: -245px;
+}
+.wildimg_possition4 {
+  margin-left: 930px;
+  margin-top: -250px;
+}
+.wildimg_possition5 {
+  margin-left: 1230px;
+  margin-top: -245px;
+}
+/*historical sites*/
+.historicallife {
+  margin-top: 35px;
+}
+#historicalimg1,
+#historicalimg2,
+#historicalimg3,
+#historicalimg4,
+#historicalimg5 {
+  border-radius: 10px;
+}
+.historicalphoto_name1 {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.historicalphoto_name2 {
+  margin-left: -4px;
+  margin-top: 20px;
+}
+.historicalphoto_name3 {
+  margin-left: 20px;
+  margin-top: 25px;
+}
+.historicalphoto_name4 {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.historicalphoto_name5 {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.historicalimg_possition1 {
+  margin-left: 60px;
+  margin-top: 60px;
+}
+.historicalimg_possition2 {
+  margin-left: 340px;
+  margin-top: -245px;
+}
+.historicalimg_possition3 {
+  margin-left: 630px;
+  margin-top: -245px;
+}
+.historicalimg_possition4 {
+  margin-left: 930px;
+  margin-top: -250px;
+}
+.historicalimg_possition5 {
+  margin-left: 1230px;
+  margin-top: -245px;
+}
+/*trekking areas*/
+.trekkinglife {
+  margin-top: 35px;
+}
+#trekkingimg1,
+#trekkingimg2,
+#trekkingimg3,
+#trekkingimg4,
+#trekkingimg5 {
+  border-radius: 10px;
+}
+.trekkingphoto_name1 {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.trekkingphoto_name2 {
+  margin-left: -4px;
+  margin-top: 20px;
+}
+.trekkingphoto_name3 {
+  margin-left: 20px;
+  margin-top: 25px;
+}
+.trekkingphoto_name4 {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.trekkingphoto_name5 {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.trekkingimg_possition1 {
+  margin-left: 60px;
+  margin-top: 60px;
+}
+.trekkingimg_possition2 {
+  margin-left: 340px;
+  margin-top: -245px;
+}
+.trekkingimg_possition3 {
+  margin-left: 630px;
+  margin-top: -245px;
+}
+.trekkingimg_possition4 {
+  margin-left: 930px;
+  margin-top: -250px;
+}
+.trekkingimg_possition5 {
+  margin-left: 1230px;
+  margin-top: -245px;
+}
+/*beach details*/
+.beachlife {
+  margin-top: 35px;
+}
+#beachimg1,
+#beachimg2,
+#beachimg3,
+#beachimg4,
+#beachimg5 {
+  border-radius: 10px;
+}
+.beachphoto_name1 {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.beachphoto_name2 {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.beachphoto_name3 {
+  margin-left: 30px;
+  margin-top: 25px;
+}
+.beachphoto_name4 {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.beachphoto_name5 {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.beachimg_possition1 {
+  margin-left: 60px;
+  margin-top: 60px;
+}
+.beachimg_possition2 {
+  margin-left: 340px;
+  margin-top: -245px;
+}
+.beachimg_possition3 {
+  margin-left: 630px;
+  margin-top: -245px;
+}
+.beachimg_possition4 {
+  margin-left: 930px;
+  margin-top: -250px;
+}
+.beachimg_possition5 {
+  margin-left: 1230px;
+  margin-top: -245px;
+}
+/*why to choose us */
+.why_hedding {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.why_section1 {
+  margin-right: 1150px;
+  background-color: rgb(223, 229, 159);
+  margin-top: 50px;
+  border-radius: 50px;
+  margin-left: 60px;
+  height: 500px;
+  line-height: 25px;
+}
+#tump_photo1 {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.why_paragraph1 {
+  margin-top: 40px;
+  margin-left: 50px;
+  text-shadow: 0.5px 1px 0.5px black;
+}
+.why_section2 {
+  margin-right: 820px;
+  background-color: rgb(134, 226, 146);
+  margin-top: -500px;
+  border-radius: 50px;
+  margin-left: 380px;
+  height: 500px;
+  line-height: 25px;
+}
+#tump_photo2 {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.why_paragraph2 {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 10px;
+  text-shadow: 0.5px 1px 0.5px black;
+}
+.why_section3 {
+  margin-right: 490px;
+  background-color: rgb(168, 222, 229);
+  margin-top: -500px;
+  border-radius: 50px;
+  margin-left: 710px;
+  height: 500px;
+  line-height: 25px;
+}
+#tump_photo3 {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.why_paragraph3 {
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 10px;
+  text-shadow: 0.5px 1px 0.5px black;
+}
+.why_section4 {
+  margin-right: 160px;
+  background-color: rgb(228, 168, 229);
+  margin-top: -500px;
+  border-radius: 50px;
+  margin-left: 1040px;
+  height: 500px;
+  line-height: 25px;
+}
+#tump_photo4 {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.why_paragraph4 {
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 10px;
+  text-shadow: 0.5px 1px 0.5px black;
+}
+.why_choose {
+  margin-left: 20px;
+}
+/* incredible india */
+.varish_hedding {
+  margin-left: 70px;
+  margin-top: 70px;
+}
+#varish_image {
+  border-radius: 20px;
+  width: 500px;
+  margin-top: 50px;
+  margin-left: 900px;
+}
+.varish_paragraph {
+  margin-right: 650px;
+  margin-top: -750px;
+  margin-left: 100px;
+  line-height: 2;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  text-indent: 120px;
+  text-shadow: 0.5px 1px 0.5px black;
+}
+/*feedback*/
+.Feedback_hedding {
+  margin-top: 70px;
+  margin-left: 100px;
+}
+.card1 {
+  margin-top: 50px;
+  margin-left: 100px;
+  background-color: rgb(221, 233, 233);
+}
+.card-img-top1 {
+  border-radius: 20px;
+}
+.card-body1 {
+  margin-top: 30px;
+  height: 250px;
+}
+.card-text1 {
+  line-height: 1.5;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  text-indent: 120px;
+  text-shadow: 0.5px 1px 0.5px black;
+}
+.card2 {
+  margin-top: -750px;
+  margin-left: 550px;
+  background-color: rgb(208, 227, 239);
+}
+.card-img-top2 {
+  border-radius: 20px;
+}
+.card-body2 {
+  margin-top: 30px;
+  height: 250px;
+}
+.card-text2 {
+  line-height: 1.5;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  text-indent: 120px;
+  text-shadow: 0.5px 1px 0.5px black;
+}
+.card3 {
+  margin-top: -750px;
+  margin-left: 1000px;
+  background-color: rgb(249, 250, 228);
+}
+.card-img-top3 {
+  border-radius: 20px;
+}
+.card-body3 {
+  margin-top: 30px;
+  height: 280px;
+}
+.card-text3 {
+  line-height: 1.5;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  text-indent: 120px;
+  text-shadow: 0.5px 1px 0.5px black;
+}
+/*climate and season*/
+.climate {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 70px;
+  background-color: rgb(233, 225, 216);
+  border-radius: 50px;
+  height: 1100px;
+}
+.climate_paragraph {
+  margin-right: 70px;
+  margin-top: 30px;
+  margin-left: 70px;
+  line-height: 2;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  text-shadow: 0.5px 1px 0.5px black;
+}
+.summer_image {
+  margin-top: 20px;
+  margin-left: 140px;
+}
+.summer_paragraph {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.summer {
+  background-color: rgb(216, 194, 165);
+  margin-top: 30px;
+  margin-left: 40px;
+  border-radius: 20px;
+}
+.Winter_image {
+  margin-top: 20px;
+  margin-left: 140px;
+}
+.Winter_paragraph {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.Winter {
+  background-color: rgb(184, 165, 216);
+  margin-top: -600px;
+  margin-left: 490px;
+  border-radius: 20px;
+}
+.monsoon_image {
+  margin-top: 20px;
+  margin-left: 140px;
+}
+.monsoon_paragraph {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.monsoon {
+  background-color: rgb(171, 216, 165);
+  margin-top: -600px;
+  margin-left: 940px;
+  border-radius: 20px;
+}
+/*best time to visit kerala   */
+.best_time_hedding {
+  margin-top: -300px;
+  margin-left: 570px;
+  color: rgb(57, 139, 62);
+}
+.best_time_image {
+  border-radius: 10px;
+  width: 400px;
+  height: 300px;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+.best_time_paragraph {
+  margin-top: 20px;
+  margin-left: 550px;
+  margin-right: 50px;
+  line-height: 2;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  text-shadow: 0.5px 1px 0.5px black;
+}
+.best_time_section {
+  background-color: rgb(229, 226, 223);
+  border-radius: 40px;
+  height: 450px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+/*travel tipes*/
+.tips_hedding {
+  margin-top: 90px;
+  margin-left: 90px;
+}
+#tips_image {
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 100px;
+  width: 350px;
+  height: 300px;
+}
+.tips_paragraph {
+  margin-left: 520px;
+  margin-right: 60px;
+  margin-top: -300px;
+}
+/*(read more and less section ,in the travel tips)*/
+#more {
+  display: none;
+}
+/*sticky logos on the right side*/
+.sticky-container {
+  padding: 0px;
+  margin: 0px;
+  position: fixed;
+  right: -130px;
+  top: 230px;
+  width: 210px;
+  z-index: 1100;
+}
+.sticky li {
+  list-style-type: none;
+  background-color: #fff;
+  color: #efefef;
+  height: 43px;
+  padding: 0px;
+  margin: 0px 0px 1px 0px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.sticky li:hover {
+  margin-left: -115px;
+}
+.sticky li img {
+  float: left;
+  margin: 5px 4px;
+  margin-right: 5px;
+}
+.sticky li p {
+  padding-top: 5px;
+  margin: 0px;
+  line-height: 16px;
+  font-size: 11px;
+}
+.sticky li p a {
+  text-decoration: none;
+  color: #2c3539;
+}
+.sticky li p a:hover {
+  text-decoration: underline;
+}
+/*Top Things to Do in Kerala*/
+.kerala_ayurveda_hedding {
+  margin-top: 90px;
+  margin-left: 70px;
+}
+.kerala_ayurveda_card {
+  margin-top: 50px;
+  margin-left: 70px;
+}
+.kerala_ayurveda_img {
+  border-radius: 20px;
+}
+.kerala_ayurveda_title {
+  margin-left: 90px;
+  color: #077680;
+}
+.kerala_ayurveda_text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 400px;
+  margin-top: 10px;
+}
+.kerala_ayurveda_btn {
+  margin-top: 40px;
+  margin-left: 70px;
+  color: #bc3f09;
+}
+.kerala_houseboat_card {
+  margin-top: -310px;
+  margin-left: 530px;
+}
+.kerala_houseboat_img {
+  border-radius: 20px;
+}
+.kerala_houseboat_title {
+  margin-left: 90px;
+  color: #077680;
+}
+.kerala_houseboat_text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 400px;
+  margin-top: 10px;
+}
+.kerala_houseboats_btn {
+  margin-top: 40px;
+  margin-left: 70px;
+  color: #bc3f09;
+}
+.kerala_wildlife_card {
+  margin-top: -310px;
+  margin-left: 1000px;
+}
+.kerala_wildlife_img {
+  border-radius: 20px;
+}
+.kerala_wildlife_title {
+  margin-left: 90px;
+  color: #077680;
+}
+.kerala_wildlife_text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 400px;
+  margin-top: 10px;
+}
+.kerala_wildlife_btn {
+  margin-top: 40px;
+  margin-left: 70px;
+  color: #bc3f09;
+}
+.kerala_map {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+/*enquary section*/
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+/* Add a background color and some padding around the form */
+.enquary {
+  border-radius: 20px;
+  background-color: #ebe8e8;
+  padding: 20px;
+  margin-top: 50px;
+  width: 900px;
+  margin-left: 250px;
+}
+/*footer*/
+.footer {
+  position: relative;
+  width: 100%;
+  background: #505a64;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  height: 400px;
+}
+.social-icon {
+  font-size: 24px;
+  margin-left: 700px;
+  margin-top: 150px;
+  color: rgb(10, 10, 10);
+}
+.menu {
+  font-size: 20px;
+  margin-right: 700px;
+  margin-top: -150px;
+  color: rgb(4, 4, 4);
+}
+.social-icon__link1,
+.social-icon__link2,
+.social-icon__link3,
+.social-icon__link4 {
+  color: beige;
+}
+.menu__link1,
+.menu__link2,
+.menu__link3,
+.menu__link4,
+.menu__link5,
+.menu__link6,
+.menu__link7 {
+  color: beige;
+  text-decoration: none;
+}

@@ -1,0 +1,115 @@
+#Beachphoto1 {
+  margin-left: 130px;
+  border-radius: 20px;
+}
+.Beach_paragaraph {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  line-height: 2;
+  text-indent: 100px;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  text-shadow: 0.5px 1px 0.5px black;
+}
+/* photo seting section */
+#beach1,
+#beach2,
+#beach3,
+#beach4 {
+  margin-left: 50px;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+#beach5,
+#beach6,
+#beach7,
+#beach8 {
+  margin-left: 50px;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+/*about kerala Beach*/
+#Beachphoto2 {
+  margin-left: 50px;
+  border-radius: 10px;
+}
+.Beach_paragraph {
+  margin-right: 20px;
+  margin-top: -600px;
+  margin-left: 600px;
+  line-height: 2;
+  text-indent: 100px;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  text-shadow: 0.5px 1px 0.5px black;
+}
+/*why choosing  GoKerala*/
+.full_colom {
+  column-count: 3;
+  column-gap: 10px;
+  column-rule-style: solid;
+  column-rule-width: 2px;
+  column-rule-color: rgb(47, 43, 43);
+  column-width: 50px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-style: solid;
+  border-width: 2px;
+  background-color: rgba(240, 238, 236, 0.777);
+  border-radius: 20px;
+}
+.first_colom,
+.second_colom,
+.third_colom {
+  break-inside: avoid-column;
+  margin-top: -20px;
+}
+#varificatioin_img {
+  margin-top: -50px;
+  margin-left: 250px;
+}
+/*footer*/
+.footer {
+  position: relative;
+  width: 100%;
+  background: #505a64;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  height: 400px;
+  margin-top: 100px;
+}
+.social-icon {
+  font-size: 24px;
+  margin-left: 700px;
+  margin-top: 150px;
+  color: rgb(10, 10, 10);
+}
+.menu {
+  font-size: 20px;
+  margin-right: 700px;
+  margin-top: -150px;
+  color: rgb(4, 4, 4);
+}
+.social-icon__link1,
+.social-icon__link2,
+.social-icon__link3,
+.social-icon__link4 {
+  color: beige;
+}
+.menu__link1,
+.menu__link2,
+.menu__link3,
+.menu__link4,
+.menu__link5,
+.menu__link6,
+.menu__link7 {
+  color: beige;
+  text-decoration: none; /* used for removing the text decerations */
+}

@@ -1,0 +1,96 @@
+.about_us {
+  font-size: 60px;
+  color: rgb(156, 32, 32);
+  margin-top: 40px;
+}
+/* Navigator bar */
+.navigator ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: rgb(164, 201, 54);
+  font-size: 20px;
+}
+.navigator {
+  position: sticky;
+  top: 0px;
+  width: 1000px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.navigator li {
+  float: left;
+  padding: 15px;
+  margin-left: 10px;
+}
+.navigator li:hover {
+  background-color: rgb(135, 170, 184);
+}
+.navigator a {
+  text-decoration: none;
+  color: inherit; /*important*/
+}
+/* anchor link (link to thge particular webpage itself)*/
+#section-1,
+#section-2,
+#section-3,
+#section-4,
+#section-5 {
+  margin-left: 100px;
+  margin-top: 100px;
+  color: rgb(9, 115, 26);
+}
+.parahraph1,
+.parahraph2,
+.parahraph3,
+.parahraph4,
+.parahraph5,
+ul,
+li {
+  line-height: 2;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  text-shadow: 0.5px 1px 0.5px black;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+/*footer*/
+.footer {
+  position: relative;
+  width: 100%;
+  background: #505a64;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  height: 400px;
+}
+.social-icon {
+  font-size: 24px;
+  margin-left: 700px;
+  margin-top: 200px;
+  color: rgb(10, 10, 10);
+}
+.menu {
+  font-size: 20px;
+  margin-right: 700px;
+  margin-top: -250px;
+  color: rgb(4, 4, 4);
+}
+.social-icon__link1,
+.social-icon__link2,
+.social-icon__link3,
+.social-icon__link4 {
+  color: beige;
+}
+.menu__link1,
+.menu__link2,
+.menu__link3,
+.menu__link4,
+.menu__link5,
+.menu__link6,
+.menu__link7 {
+  color: beige;
+  text-decoration: none;
+}
